@@ -1,8 +1,9 @@
 package sort.bubble
 
 /**
- * Created by машинко on 24.08.2017.
+ * Head Interface for sort algorithms by Kvendyz
  */
 interface Sort {
-    fun sort(array : List<Int>):List<Int>
+    fun sort(array : Array<Int>):Array<Int>
+    fun swap(array : Array<Int>, startPos : Int, nextPos : Int):Array<Int>
 }
